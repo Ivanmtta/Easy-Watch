@@ -1,6 +1,6 @@
 ![Easy Watch](./.github/logo.png)
 # Description
-*Easy Watch* is a web application to watch youtube videos with your friends even if you are not together.
+*Easy Watch* is the easiest way to watch youtube videos with your friends even if you are not together.
 Laugh at the same thing at the same time no matter where you are. No account needed!
 
 ## Live Demo
