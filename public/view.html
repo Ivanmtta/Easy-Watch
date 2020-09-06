@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/materialize.min.css"/>
+    <link rel="stylesheet" href="./css/site.css"/>
+    <title>Easy Watch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <nav class="black">
+      <div class="nav-wrapper">
+        <a class="brand-logo center"><i class="large material-icons">video_library</i>Easy Watch</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row link-field">
+        <div class="col s10">
+          <div class="input-field">
+            <input id="url" type="text">
+            <label for="url">Youtube link</label>
+          </div>
+        </div>
+        <div class="col s2 center">
+           <a class="btn-floating btn-large waves-effect waves-light black center-align" onclick="loadNewVideo()">
+            <i class="material-icons">add</i>
+          </a>
+        </div>
+      </div>      
+      <div class="video-container center margin_bottom">
+        <div id="player"></div>
+      </div>
+      <a class="waves-effect waves-light btn-large black right" onclick="syncVideoTimePress()">
+        <i class="material-icons left">sync</i>Sync video time
+      </a>
+      <a class="btn-floating btn-large waves-effect waves-light black margin-right right margin_bottom" onclick="playButtonPress()">
+        <i class="material-icons play-stop-icon">play_arrow</i>
+      </a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <script src="./src/materialize.js"></script>
+    <script src="./src/site.js"></script>
+  </body>
+</html>
