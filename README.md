@@ -4,7 +4,6 @@
 Laugh at the same thing at the same time no matter where you are. No account needed!
 
 ## Live Demo
-[Try *Easy Watch*](https://easy-watch.herokuapp.com/)
 ![Demo](./.github/demo.gif)
 
 ## Technologies
